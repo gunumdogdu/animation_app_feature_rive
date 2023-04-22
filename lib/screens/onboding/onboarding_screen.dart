@@ -62,7 +62,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             top: isSignInDialogShown ? -50 : 0,
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
-            duration: Duration(
+            duration: const Duration(
               milliseconds: 240,
             ),
             child: SafeArea(

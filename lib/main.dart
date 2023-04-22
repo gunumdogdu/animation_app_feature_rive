@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:rive_animation/components/side_menu.dart';
+import 'package:rive_animation/screens/onboding/entry_point.dart';
 import 'package:rive_animation/screens/onboding/onboarding_screen.dart';
 
 void main() {
@@ -15,10 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'The Flutter Way',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xFFEEF1F8),
+        scaffoldBackgroundColor: const Color(0xFFEEF1F8),
         primarySwatch: Colors.blue,
         fontFamily: "Intel",
-        inputDecorationTheme: InputDecorationTheme(
+        inputDecorationTheme: const InputDecorationTheme(
           filled: true,
           fillColor: Colors.white,
           errorStyle: TextStyle(height: 0),
